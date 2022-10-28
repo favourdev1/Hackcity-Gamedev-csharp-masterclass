@@ -15,7 +15,7 @@ using System;
        string firstName = "Favour";
        string familyName = "Okechukwu";
        sbyte age = 29;
-       char gender ="m";
+       char gender ='m';
        short idNum = 206;
        int employeeNumber = 27560001;
         
