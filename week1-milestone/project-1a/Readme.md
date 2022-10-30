@@ -1,6 +1,6 @@
 # Project 1a:
 
-## Introduction to Programming/Primitive Data Types and Variables
+#### Introduction to Programming/Primitive Data Types and Variables
 
 - Create a Console Application to Print to the console A fictitious firm record. The record would have the following characteristics – Company name, Company Industry, Company Location, Company Mission, Company Vision and the Company CEO.
 
