@@ -11,6 +11,9 @@ using System.Text.RegularExpressions;
    {
      public static void Main(string[] args)
      {
+
+//Write a program that converts a number in the range [0...999] to a text corresponding to its English pronunciation
+
         Console.WriteLine(takeVal());
        
        
