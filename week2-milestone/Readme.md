@@ -1,9 +1,7 @@
-#Week Two
+# Week Two
 
-###Project 2a:
-
-##### Arrays & Numeral Systems
-
+### Project 2a: **Arrays & Numeral Systems**
+____________
 - Write a program that reads a rectangular matrix of size N x M and finds in it the square 3 x 3 that has the maximal sum of its elements.
 
 - Write a program that creates an array containing all letters from the alphabet (A-Z). Read a word from the console and print the index of each of its letters in the array.
