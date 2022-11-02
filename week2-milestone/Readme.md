@@ -19,9 +19,7 @@ ____________
 
 
 
-### Project 2b:
-
-#### Methods and Recursion
+### Project 2b: **Methods and Recursion**
 
 - Write a program that can solve these tasks:
 
