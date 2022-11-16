@@ -35,7 +35,7 @@ Add a method that calculates the total price of the calls in the call history. A
 Define appropriate constructors and properties. Define property DecimalValue which converts fraction to rounded decimal value.
  ```
 
-- We are given a library of books. Define classes for the library and the books. The library should have a name and a list of books. The books have title, author, publisher, year of publishing and ISBN. Keep the books in List<Book> (first find how to use the class System.Collections.Generic.List<T>).
+3. We are given a library of books. Define classes for the library and the books. The library should have a name and a list of books. The books have title, author, publisher, year of publishing and ISBN. Keep the books in List<Book> (first find how to use the class System.Collections.Generic.List<T>).
 
 Implement methods for adding, searching by title and author, displaying and deleting books.
 
@@ -45,9 +45,9 @@ Write a test class that creates a library, adds a few books to it and displays t
 
 ## Project 4b: Text Files
 
-- Write a program that reads a list of words from a file words.txt and finds how many times each of the words is contained in another file test.txt. The result should be written in the file result.txt and the words should be sorted by the number of their occurrences in descending order. Handle all possible exceptions in your methods.
+1. Write a program that reads a list of words from a file words.txt and finds how many times each of the words is contained in another file test.txt. The result should be written in the file result.txt and the words should be sorted by the number of their occurrences in descending order. Handle all possible exceptions in your methods.
 
 
-- Write a program that replaces all occurrences of the substring "start" with the substring "finish" in a text file. Ensure it will work with large files (e.g. 100 MB).
+2. Write a program that replaces all occurrences of the substring "start" with the substring "finish" in a text file. Ensure it will work with large files (e.g. 100 MB).
 
 
