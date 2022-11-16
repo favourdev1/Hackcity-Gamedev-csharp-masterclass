@@ -2,7 +2,7 @@
 
 ### Project 4a: Defining Classes
 
-Define a class that holds information about a mobile phone device: model, manufacturer, price, owner, battery characteristics (model, hours idle and hours talk) and display characteristics (size and colors). Define 3 separate classes: GSM, Battery and Display.
+1. Define a class that holds information about a mobile phone device: model, manufacturer, price, owner, battery characteristics (model, hours idle and hours talk) and display characteristics (size and colors). Define 3 separate classes: GSM, Battery and Display.
 
 ``` Define several constructors for the defined classes that take different sets of arguments (the full information for the class or part of it). The unknown data fill with null.
 
