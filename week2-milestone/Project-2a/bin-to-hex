@@ -1,0 +1,96 @@
+using System;
+
+class BinaryToHex
+{
+    static void Main(string[] args)
+    {
+        Console.Write("Enter a binary number: ");
+        string binary = Console.ReadLine();
+
+        // Check if the input is a valid binary number
+        if (!IsBinary(binary))
+        {
+            Console.WriteLine("Invalid binary number");
+            return;
+        }
+
+        // Pad the binary number with leading zeroes so it can be divided into groups of 4
+        while (binary.Length % 4 != 0)
+            binary = "0" + binary;
+
+        // Divide the binary number into groups of 4
+        string[] binaryGroups = new string[binary.Length / 4];
+        for (int i = 0; i < binaryGroups.Length; i++)
+            binaryGroups[i] = binary.Substring(i * 4, 4);
+
+        string hex = "";
+        // Convert each group of 4 binary digits to a hexadecimal digit
+        for (int i = 0; i < binaryGroups.Length; i++)
+        {
+            switch (binaryGroups[i])
+            {
+                case "0000":
+                    hex += "0";
+                    break;
+                case "0001":
+                    hex += "1";
+                    break;
+                case "0010":
+                    hex += "2";
+                    break;
+                case "0011":
+                    hex += "3";
+                    break;
+                case "0100":
+                    hex += "4";
+                    break;
+                case "0101":
+                    hex += "5";
+                    break;
+                case "0110":
+                    hex += "6";
+                    break;
+                case "0111":
+                    hex += "7";
+                    break;
+                case "1000":
+                    hex += "8";
+                    break;
+                case "1001":
+                    hex += "9";
+                    break;
+                case "1010":
+                    hex += "A";
+                    break;
+                case "1011":
+                    hex += "B";
+                    break;
+                case "1100":
+                    hex += "C";
+                    break;
+                case "1101":
+                    hex += "D";
+                    break;
+                case "1110":
+                    hex += "E";
+                    break;
+                case "1111":
+                    hex += "F";
+                    break;
+            }
+        }
+
+        Console.WriteLine("Hexadecimal equivalent: " + hex);
+    }
+
+    static bool IsBinary(string number)
+    {
+        foreach (char c in number)
+        {
+            if (c != '0' && c != '1')
+                return false;
+        }
+        return true;
+    }
+}
+
